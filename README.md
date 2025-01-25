@@ -39,3 +39,10 @@ SVM is highly sensitive to the choice of data distribution, particularly when cl
 ## Conclusion
 
 In summary, Random Forest consistently provides the highest accuracy across all sampling techniques, followed by Decision Tree and Logistic Regression. SVM and KNN perform less effectively, with SVM being particularly sensitive to imbalanced data, while KNN faces challenges with data sparsity and outliers.
+
+### Best Sampling Technique for Each Model:                     
+#### Logistic Regression: Cluster with Accuracy = 0.96
+#### Decision Tree: Cluster with Accuracy = 0.98
+#### Random Forest: Cross-Validation with Accuracy = 1.00
+#### SVM: Cluster with Accuracy = 0.98
+#### KNN: Cluster with Accuracy = 0.98
